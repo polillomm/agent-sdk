@@ -2,7 +2,8 @@
 
 ```log
 0.2.1 - 2026/03/06
-docs(readme): add Motivation section — model-agnostic rationale and ELO requirement
+refactor: rename CLAUDE.md to AGENTS.md for model-agnostic branding
+docs(readme): merge intro and Motivation into two concise paragraphs, add provider examples and ELO requirement
 refactor(maestro): update Identity — chief of staff role, accountability, clarification over prohibition
 feat(maestro): add commit flow to Handoff — branch guard, user confirmation, git commandment reference
 
