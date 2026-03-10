@@ -1,6 +1,11 @@
 # Changelog
 
 ```log
+0.2.3 - 2026/03/10
+feat(boot): add gitignore check — ensure .agents/ and .memory/ are in project .gitignore on startup
+feat(boot): add auto-update — pull latest framework on session start, reboot if changes detected
+docs(readme): replace vague setup steps with deterministic shell commands (git clone, ln -s)
+
 0.2.2 - 2026/03/09
 feat(maestro): surface pre-existing issues (bugs, tech debt, code smells) found by sub-agents during Deliver
 feat(dispatch): instruct sub-agents to report pre-existing issues in a Discovered Issues handoff section

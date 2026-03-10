@@ -8,13 +8,23 @@ It's model-agnostic: orchestrate from Claude, plan on GLM, review on Qwen, or an
 
 ## Setup
 
-1. Clone this repo into a `.agents/` directory in the project you want to work on.
-2. Add `.agents/` and `.memory/` to the project's `.gitignore`.
-3. Copy `AGENTS.md` from this repo into the root of the project (or point your AI tool's entry file to `.agents/README.md`).
-4. Start the AI agent (e.g., `claude`, or whatever CLI you use).
-5. Say **"Please comply with AGENTS.md."** — this boots the Maestro and loads the framework.
-6. From there, speak naturally. The Maestro orchestrates everything. On first run, it automatically dispatches the Contextualizer to map the codebase.
-7. Customize — add personas, rules, skills, and providers to fit your project (see Customization below).
+1. Clone into `.agents/` inside your project:
+
+   ```bash
+   cd /path/to/your/project
+   git clone git@github.com:ntorga/agent-starter-kit.git .agents
+   ```
+
+2. Symlink the entry file to the project root:
+
+   ```bash
+   ln -s .agents/AGENTS.md AGENTS.md
+   ```
+
+3. Start the AI agent (e.g., `claude`, or whatever CLI you use).
+4. Say **"Please comply with AGENTS.md."** — this boots the Maestro and loads the framework.
+5. From there, speak naturally. The Maestro orchestrates everything. On first run, it automatically dispatches the Contextualizer to map the codebase.
+6. Customize — add personas, rules, skills, and providers to fit your project (see Customization below).
 
 ## How It Works
 
