@@ -1,6 +1,13 @@
 # Changelog
 
 ```log
+0.4.0 - 2026/03/27
+feat(memory): add session memory — per-task session files with status tracking, resume flow, log entries, and active todo pointer
+feat(memory): add signal tiers for long-term memory writes — strong (explicit), medium (correction), weak (wait)
+feat(memory): add structured distillation — scan for corrections, struggles, decisions, preferences, and prune stale entries
+feat(memory): add size discipline — 80-entry cap on long-term memory with aggressive pruning
+feat(maestro): integrate session memory into playbook — update session before dispatch and after delivery
+
 0.3.2 - 2026/03/27
 feat(memory): add cycle counter — reset at boot, increment after each cycle, warn user at ≥7 cycles
 feat(architect): save plans to .memory/plan/ so they survive session interruptions

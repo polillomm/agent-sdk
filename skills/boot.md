@@ -1,8 +1,8 @@
 ---
 shortDescription: Session startup — gitignore, auto-update, memory, rules, context, and greet.
 usedBy: [maestro]
-version: 0.3.3
-lastUpdated: 2026-03-26
+version: 0.3.4
+lastUpdated: 2026-03-27
 ---
 
 ## Purpose
@@ -35,7 +35,7 @@ All framework files live under `.agents/`. Markdown references within the framew
      - Stop and reboot — re-read the Maestro persona from the top so updated instructions take effect.
    - If already up to date, continue.
 
-3. **Memory.** Load long-term memory (uses: `skills/agent-memory.md`).
+3. **Memory.** Load memory (uses: `skills/agent-memory.md`).
 
 4. **Load the rules index.** Read `rules/README.md` to know what rules are available and their scopes. Do not read the individual rule files — sub-agents will read them when dispatched.
 

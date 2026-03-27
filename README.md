@@ -60,7 +60,7 @@ skills/      Reusable procedures and protocols
 
 Skills codify procedures that personas reference. They answer "how to do X" so personas can focus on "what to do."
 
-- **agent-memory** — long-term memory across sessions
+- **agent-memory** — long-term and session memory across sessions
 - **boot** — session startup sequence
 - **code-coherence-review** — logic coherence, correctness, and structural integrity checks
 - **code-quality-review** — rules-walk procedure for coding standards compliance

@@ -6,7 +6,7 @@ Skills are collected intelligence on how to operate a specific tool — whether 
 
 | Skill                  | Description                                                     |
 | ---------------------- | --------------------------------------------------------------- |
-| `agent-memory`          | Long-term memory across sessions                                |
+| `agent-memory`          | Long-term and session memory across sessions                    |
 | `boot`                  | Session startup — gitignore, auto-update, memory, rules, orient |
 | `code-coherence-review` | Logic coherence, correctness, and structural integrity checks   |
 | `code-quality-review`   | Rules-walk procedure for coding standards compliance            |
